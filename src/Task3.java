@@ -16,12 +16,6 @@ public class Task3 {
 
         try {
             number = Integer.valueOf(scanner.nextLine());
-
-        }catch (Exception e){
-            System.out.println("Something went wrong");
-        }
-
-        try{
             validate(number);
 
         }catch (Exception e){
